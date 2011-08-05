@@ -1,0 +1,40 @@
+body {
+	background-color: #fff;
+}
+#indicator input {
+	width: 270px;
+	text-align: right;
+	font-size: 18px;
+	font-family: "Courier";
+}
+#keyboard button {
+	width: 65px;
+	height: 30px;
+	margin: 2px;
+	border: 1px solid #d6d6d6;
+}
+#keyboard button.stub {
+	background-color: #fff;
+	border: none;
+}
+#keyboard button.clear {
+	background-color: #b00;
+	color: #fff
+}
+#keyboard button.number {
+    background-color: #00b;
+    color: #fff
+}
+#keyboard button.sign {
+    background-color: #d6d6d6;
+}
+#keyboard button.point {
+    background-color: #d6d6d6;
+}
+#keyboard button.operation {
+    background-color: #0b0;
+    color: #fff
+}
+#keyboard button.exec {
+    background-color: #d6d6d6;
+}
